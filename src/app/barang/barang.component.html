@@ -1,3 +1,17 @@
 <p>
   barang works!
 </p>
+<!--10 looping data-->
+<table class="table table-bordered">
+  <thead>
+  <tr>
+    <td>NAMA</td>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor=" let b of dataBarang.n">
+    <td>{{b.nama}}</td>
+
+  </tr>
+  </tbody>
+</table>
